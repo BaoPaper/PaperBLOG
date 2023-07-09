@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>VLC皮肤分享</title>
+    <link href="/2023/07/09/VLC%E7%9A%AE%E8%82%A4%E5%88%86%E4%BA%AB/"/>
+    <url>/2023/07/09/VLC%E7%9A%AE%E8%82%A4%E5%88%86%E4%BA%AB/</url>
+    
+    <content type="html"><![CDATA[<p>改了一个开源的VLC皮肤 <a href="https://github.com/keksbaecker/papirus-vlc-theme">Papirus</a> ，简单修改了一点并加入了菜单汉化并且也在Github开源了，<a href="https://github.com/BaoPaper/VLC-Papirus-ChineseSimplified">仓库链接</a>。</p><p>汉化界面图片</p><p><img src="https://baopaper.cn/img/202307091.webp" alt="菜单汉化"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>资源分享</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>github</tag>
+      
+      <tag>分享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>使用Python脚本自动部署Hexo</title>
     <link href="/2023/07/03/%E4%BD%BF%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo/"/>
     <url>/2023/07/03/%E4%BD%BF%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo/</url>

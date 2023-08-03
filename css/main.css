@@ -145,6 +145,9 @@ h6:hover > .anchorjs-link {
 .license-box .license-meta .license-meta-item i.iconfont {
   font-size: 1rem;
 }
+.license-box .license-meta-image {
+  margin-top: 1rem;
+}
 @media (max-width: 575px) and (min-width: 425px) {
   .license-box .license-meta .license-meta-item {
     display: flex;

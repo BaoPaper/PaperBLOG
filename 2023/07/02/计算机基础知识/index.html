@@ -1,0 +1,804 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.webp">
+  <link rel="icon" href="/img/favicon.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#1e1e1e">
+  <meta name="author" content="BaoPaper">
+  <meta name="keywords" content="blog programming">
+  
+    <meta name="description" content="计算机的发展过程及各阶段的主要特点及分类第一代电子管计算机（1946-1957）这一阶段计算机的主要特征是采用电子管元件作基本器件，用光屏管或汞延时电路作存储器，输入与输出主要采用穿孔卡片或纸带，体积大、耗电量大、速度慢、存储容量小、可靠性差、维护困难且价格昂贵。在软件上，通常使用机器语言或者汇编语言，来编写应用程序。因此这一时代的计算机主要用于科学计算。 这时的计算机的基本线路是采用电子管结构，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机基础知识">
+<meta property="og:url" content="https://baopaper.cn/2023/07/02/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.html">
+<meta property="og:site_name" content="豹纸小站">
+<meta property="og:description" content="计算机的发展过程及各阶段的主要特点及分类第一代电子管计算机（1946-1957）这一阶段计算机的主要特征是采用电子管元件作基本器件，用光屏管或汞延时电路作存储器，输入与输出主要采用穿孔卡片或纸带，体积大、耗电量大、速度慢、存储容量小、可靠性差、维护困难且价格昂贵。在软件上，通常使用机器语言或者汇编语言，来编写应用程序。因此这一时代的计算机主要用于科学计算。 这时的计算机的基本线路是采用电子管结构，">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.baopaper.cn/cover/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.70domp5kyjw0.webp">
+<meta property="article:published_time" content="2023-07-02T08:09:32.000Z">
+<meta property="article:modified_time" content="2023-08-14T14:28:42.420Z">
+<meta property="article:author" content="BaoPaper">
+<meta property="article:tag" content="学习">
+<meta property="article:tag" content="电脑">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pic.baopaper.cn/cover/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.70domp5kyjw0.webp">
+  
+  
+  
+  <title>计算机基础知识 - 豹纸小站</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"baopaper.cn","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>豹纸小站</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                <span>友链</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://pic.baopaper.cn/cover/计算机基础知识_blur.w8pklkuc7v4.webp') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="计算机基础知识"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-07-02 16:09" pubdate>
+          2023年7月2日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          6.1k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          52 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">计算机基础知识</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h2 id="计算机的发展过程及各阶段的主要特点及分类"><a href="#计算机的发展过程及各阶段的主要特点及分类" class="headerlink" title="计算机的发展过程及各阶段的主要特点及分类"></a>计算机的发展过程及各阶段的主要特点及分类</h2><h3 id="第一代"><a href="#第一代" class="headerlink" title="第一代"></a>第一代</h3><p>电子管计算机（1946-1957）这一阶段计算机的主要特征是采用电子管元件作基本器件，用光屏管或汞延时电路作存储器，输入与输出主要采用穿孔卡片或纸带，体积大、耗电量大、速度慢、存储容量小、可靠性差、维护困难且价格昂贵。在软件上，通常使用机器语言或者汇编语言，来编写应用程序。因此这一时代的计算机主要用于科学计算。</p>
+<p>这时的计算机的基本线路是采用电子管结构，程序从人工手编的机器指令程序，过渡到符号语言，第一代电子计算机是计算工具革命性发展的开始，它所采用的二进位制与程序存贮等基本技术思想，奠定了现代电子计算机技术基础。以冯·诺依曼为代表。</p>
+<h3 id="第二代"><a href="#第二代" class="headerlink" title="第二代"></a>第二代</h3><p>晶体管计算机（1957-1964）20世纪50年代中期，晶体管的出现使计算机生产技术得到了根本性的发展，由晶体管代替电子管作为计算机的基础器件，用磁芯或磁鼓作存储器，在整体性能上，比第一代计算机有了很大的提高。同时程序语言也相应的出现了，如Fortran，Cobol，Algo160等计算机高级语言。晶体管计算机被用于科学计算的同时，也开始在数据处理、过程控制方面得到应用。</p>
+<p>在20世纪50年代之前第一代，计算机都采用电子管作元件。电子管元件在运行时产生的热量太多，可靠性较差，运算速度不快，价格昂贵，体积庞大，这些都使计算机发展受到限制。于是，晶体管开始被用来作计算机的元件。晶体管不仅能实现电子管的功能，又具有尺寸小、重量轻、寿命长、效率高、发热少、功耗低等优点。使用晶体管后，电子线路的结构大大改观，制造高速电子计算机就更容易实现了。</p>
+<h3 id="第三代"><a href="#第三代" class="headerlink" title="第三代"></a>第三代</h3><p>中小规模集成电路计算机（1964-1971）20世纪60年代中期， 随着半导体工艺的发展，成功制造了集成电路。中小规模集成电路成为计算机的主要部件，主存储器也渐渐过渡到 半导体存储器，使计算机的体积更小，大大降低了计算机计算时的功耗，由于减少了 焊点和 接插件，进一步提高了计算机的可靠性。在软件方面，有了标准化的程序设计语言和人机会话式的 Basic语言，其应用领域也进一步扩大。</p>
+<h3 id="第四代"><a href="#第四代" class="headerlink" title="第四代"></a>第四代</h3><p>大规模和超大规模集成电路计算机（1971-2016）随着大规模集成电路的成功制作并用于计算机硬件生产过程，计算机的体积进一步缩小，性能进一步提高。集成更高的大容量半导体存储器作为内存储器，发展了并行技术和多机系统，出现了 精简指令集计算机（RISC），软件系统工程化、理论化，程序设计自动化。微型计算机在社会上的应用范围进一步扩大，几乎所有领域都能看到计算机的“身影”。</p>
+<h3 id="第五代"><a href="#第五代" class="headerlink" title="第五代"></a>第五代</h3><p>第五代计算机指具有人工智能的新一代计算机，它具有推理、联想、判断、决策、学习等功能。</p>
+<h2 id="我国计算机发展历程"><a href="#我国计算机发展历程" class="headerlink" title="我国计算机发展历程"></a>我国计算机发展历程</h2><h3 id="第一代电子管计算机研制（1958-1964年"><a href="#第一代电子管计算机研制（1958-1964年" class="headerlink" title="第一代电子管计算机研制（1958-1964年)"></a>第一代电子管计算机研制（1958-1964年)</h3><p>我国从1957年在中科院计算所开始研制通用数字电子计算机，1958年8月1日该机可以表演短程序运行，标志着我国第一台电子数字计算机诞生。机器在738厂开始少量生产，命名为103型计算机(即DJS-1型)。1958年5月我国开始了第一台大型通用电子数字计算机(104机)研制。在研制104机同时，夏培肃院士领导的科研小组首次自行设计并于1960年4月研制成功一台小型通用电子数字计算机107机。1964年我国第一台自行设计的大型通用数字电子管计算机119机研制成功。</p>
+<h3 id="第二代晶体管计算机研制（1965-1972年）"><a href="#第二代晶体管计算机研制（1965-1972年）" class="headerlink" title="第二代晶体管计算机研制（1965-1972年）"></a>第二代晶体管计算机研制（1965-1972年）</h3><p>1965年中科院计算所研制成功了我国第一台大型晶体管计算机：109乙机；对109乙机加以改进，两年后又推出109丙机，在我国两弹试制中发挥了重要作用，被用户誉为“功勋机”。华北计算所先后研制成功108机、108乙机(DJS-6)、121机(DJS-21)和320机(DJS-8)，并在738厂等五家工厂生产。1965～1975年，738厂共生产320机等第二代产品380余台。哈军工(国防科大前身)于1965年2月成功推出了441B晶体管计算机并小批量生产了40多台。</p>
+<h3 id="第三代中小规模集成电路的计算机研制（1973-80年代初）"><a href="#第三代中小规模集成电路的计算机研制（1973-80年代初）" class="headerlink" title="第三代中小规模集成电路的计算机研制（1973-80年代初）"></a>第三代中小规模集成电路的计算机研制（1973-80年代初）</h3><p>1973年，北京大学与北京有线电厂等单位合作研制成功运算速度每秒100万次的大型通用计算机，1974年清华大学等单位联合设计，研制成功DJS-130小型计算机，以后又推DJS-140小型机，形成了100系列产品。与此同时，以华北计算所为主要基地，组织全国57个单位联合进行DJS-200系列计算机设计，同时也设计开发DJS-180系列超级小型机。70年代后期，电子部32所和国防科大分别研制成功655机和151机，速度都在百万次级。进入80年代，我国高速计算机，特别是向量计算机有新的发展。</p>
+<h3 id="第四代超大规模集成电路的计算机"><a href="#第四代超大规模集成电路的计算机" class="headerlink" title="第四代超大规模集成电路的计算机"></a>第四代超大规模集成电路的计算机</h3><p>研制和国外一样 ，我国第四代计算机研制也是从微机开始的。1980年初我国不少单位也开始采用Z80，X86和6502芯片研制微机。1983年12电子部六所研制成功与IBM PC机兼容的DJS-0520微机。10多年来我国微机产业走过了一段不平凡道路，以联想微机为代表的国产微机已占领一大半国内市场。</p>
+<h2 id="计算机的分类"><a href="#计算机的分类" class="headerlink" title="计算机的分类"></a>计算机的分类</h2><h3 id="根据功能分类"><a href="#根据功能分类" class="headerlink" title="根据功能分类"></a>根据功能分类</h3><p>个人计算机（PC）：主要用于个人办公、学习和娱乐等方面的计算机。<br>工作站：专门为专业计算或科学应用而设计的计算机，它通常具有高性能、高可靠性和高扩展性。<br>服务器：主要用于提供网络服务和存储数据的计算机。<br>超级计算机：主要用于处理大规模科学计算和数据分析等高性能计算领域的计算机。</p>
+<h3 id="根据体积和尺寸分类"><a href="#根据体积和尺寸分类" class="headerlink" title="根据体积和尺寸分类"></a>根据体积和尺寸分类</h3><p>超级计算机：通常需要占用大量的物理空间。<br>服务器：通常较大，需要安装在专门的机架中。<br>笔记本电脑：便携性强，体积小。<br>平板电脑：更加轻便，可以随时携带。<br>台式电脑：通常占用一定的物理空间，需要桌面等支撑。</p>
+<h3 id="根据处理器架构分类"><a href="#根据处理器架构分类" class="headerlink" title="根据处理器架构分类"></a>根据处理器架构分类</h3><blockquote>
+<p>为什么没有x64架构计算机？</p>
+<p>由于x64架构是x86架构的扩展，因此通常将其视为x86架构的一种变体，而不是单独的一种架构。因此，在一些分类中，将x64架构计算机视为x86架构计算机的一个子类，而不是独立的架构。</p>
+</blockquote>
+<p>x86架构计算机：常见于个人计算机和服务器。<br>ARM架构计算机：常见于移动设备、嵌入式系统和服务器。</p>
+<h3 id="根据使用场景分类"><a href="#根据使用场景分类" class="headerlink" title="根据使用场景分类"></a>根据使用场景分类</h3><p>嵌入式系统：通常用于嵌入到其他设备中，如智能家居、汽车、工业自动化等。<br>移动设备：如智能手机、平板电脑、便携式游戏机等。<br>游戏机：如主机游戏机、掌机等。<br>个人电脑：如笔记本电脑、台式电脑等。<br>服务器：用于提供网络服务和存储数据等。<br>超级计算机：主要用于高性能计算和数据分析等领域。</p>
+<h3 id="根据操作系统分类"><a href="#根据操作系统分类" class="headerlink" title="根据操作系统分类"></a>根据操作系统分类</h3><p>Windows计算机：使用Microsoft Windows操作系统。<br>MacOS计算机：使用苹果公司开发的MacOS操作系统。<br>Linux计算机：使用Linux操作系统。<br>Android设备：使用Android操作系统。<br>iOS设备：使用iOS操作系统。</p>
+<h2 id="进制的概念及换算"><a href="#进制的概念及换算" class="headerlink" title="进制的概念及换算"></a>进制的概念及换算</h2><h3 id="进制的概念"><a href="#进制的概念" class="headerlink" title="进制的概念"></a>进制的概念</h3><p>N进制采用“逢N进1”的进位规则<br>计算机内部采用二进制的主要原因：易于实现、运算简单、通用性强、可靠性高<br>进制的三要素：数位、基数、位权<br>二进制B 八进制O 十进制D 十六进制H</p>
+<h3 id="进制的转换"><a href="#进制的转换" class="headerlink" title="进制的转换"></a>进制的转换</h3><h4 id="二进制的逻辑运算"><a href="#二进制的逻辑运算" class="headerlink" title="二进制的逻辑运算"></a>二进制的逻辑运算</h4><p>逻辑非运算&#x2F;取反运算  取反<br>逻辑与运算&#x2F;逻辑乘∩&#x2F;·  全一为一<br>逻辑或运算&#x2F;逻辑加∪&#x2F;+  见一得一<br>逻辑异或运算&#x2F;按位加⊕  同0异1<br>逻辑同或运算⊙  同1异0</p>
+<h4 id="数制的转换"><a href="#数制的转换" class="headerlink" title="数制的转换"></a>数制的转换</h4><p>基数为R的数字，将R进制数用按权展开求和法转换成十进制数<br>十进制转换为十六进制，整数除以16取余</p>
+<h3 id="数据在计算机中的处理过程"><a href="#数据在计算机中的处理过程" class="headerlink" title="数据在计算机中的处理过程"></a>数据在计算机中的处理过程</h3><h4 id="通常可以分为四个步骤：输入、处理、输出和储存。下面是每个步骤的具体描述："><a href="#通常可以分为四个步骤：输入、处理、输出和储存。下面是每个步骤的具体描述：" class="headerlink" title="通常可以分为四个步骤：输入、处理、输出和储存。下面是每个步骤的具体描述："></a>通常可以分为四个步骤：输入、处理、输出和储存。下面是每个步骤的具体描述：</h4><ol>
+<li>输入：将外部数据（例如文本、图像、音频等）输入到计算机中，通常使用各种输入设备，如键盘、鼠标、摄像头、麦克风等。</li>
+<li>处理：计算机对输入的数据进行处理，通常使用中央处理器（CPU）执行各种算法和指令。处理过程包括读取、存储、转换和计算等操作，最终将数据转化为所需的结果。</li>
+<li>输出：将处理后的数据输出到外部设备，如显示器、打印机、扬声器等。输出的数据可以是文本、图像、音频或视频等形式。</li>
+<li>储存：计算机将数据存储在内存或硬盘等存储介质中，以便在需要时可以快速访问。计算机使用二进制数（0和1）表示数据，并将其储存在存储介质中。</li>
+</ol>
+<h4 id="在计算机中，数据可以以多种不同的方式储存，最常见的储存方式包括："><a href="#在计算机中，数据可以以多种不同的方式储存，最常见的储存方式包括：" class="headerlink" title="在计算机中，数据可以以多种不同的方式储存，最常见的储存方式包括："></a>在计算机中，数据可以以多种不同的方式储存，最常见的储存方式包括：</h4><ol>
+<li><p>内存储存：内存是计算机中用于暂时存储数据的一种储存介质。计算机将数据存储在内存中以便更快地访问和处理。</p>
+</li>
+<li><p>硬盘储存：硬盘是计算机中用于永久存储数据的一种储存介质。硬盘可以存储大量的数据，并且数据可以长时间保持在硬盘上。</p>
+</li>
+<li><p>光盘和闪存储存：光盘和闪存是另外两种常见的储存介质。光盘可以用于存储大量的数据，如音频、视频和软件程序等。闪存储存器通常用于存储相对较小的数据，如文档、照片和音乐等。</p>
+</li>
+<li><p>云存储：云存储是一种通过网络连接到远程服务器来存储和访问数据的方式。云存储可以提供高度的可靠性和安全性，并且可以随时随地从任何设备访问数据。</p>
+</li>
+</ol>
+<h3 id="字符编码"><a href="#字符编码" class="headerlink" title="字符编码"></a>字符编码</h3><p>西文字符编码：ASCII码是一种用7位二进制表示1个字符的字符编码，共可以表示128个不同字符，由32个控制字符、10个十进制数码、52个大小写英文字母、34个专业符号组成，字符在计算机中实际用一个字节8个二进制位表示<br>汉字编码<br>汉字信息交换码（交换码）也叫国标码：4位16进制数。包含一级常用字3755个，二级常用字3008个<br>汉字输入码（外码）：流行的编码方案有全拼输入法、双拼输入法、自然码输入法和五笔输入法等<br>汉字内部码（机内码）:计算机内部对汉字进行存储、处理的汉字代码<br>汉字字形码&#x2F;字模&#x2F;汉字输出码：表示汉字字形信息的编码，用来实现汉字的输出，字形码最常见的表示方式是点阵形式<br>区位码：四位十进制数，前两位叫做区码，后两位叫做位码<br>汉字国标码&#x3D;汉字区位码（区、位均要转换成十六进制）+2020H<br>汉字内部码&#x3D;汉字国标码+8080H</p>
+<h2 id="计算机系统的组成"><a href="#计算机系统的组成" class="headerlink" title="计算机系统的组成"></a>计算机系统的组成</h2><p>计算机系统通常由以下几个组成部分组成：</p>
+<ol>
+<li>中央处理器（CPU）：它是计算机系统的核心，负责执行计算机程序中的指令。CPU通常包括算术逻辑单元（ALU）、控制单元（CU）和寄存器。</li>
+<li>存储器：存储器是计算机系统中用于存储数据和指令的部件。存储器通常被划分为两类：主存储器和辅助存储器。主存储器（例如，随机存取存储器（RAM））用于存储程序和数据，而辅助存储器（例如，硬盘、光盘和闪存驱动器）则用于长期存储数据。</li>
+<li>输入&#x2F;输出设备（I&#x2F;O设备）：输入&#x2F;输出设备用于与计算机系统的用户或其他外部设备进行通信。例如，键盘、鼠标和显示器用于输入和输出文本和图像，打印机用于输出文档。</li>
+<li>系统总线：系统总线是计算机系统中各个组件之间通信的物理通道。它可以传输指令、数据和控制信号，以便各个组件协同工作。</li>
+</ol>
+<p>除了上述组成部分，还有其他一些部件和技术，例如网络接口卡、操作系统、编程语言和应用软件。这些部件和技术对于构建和使用计算机系统都是至关重要的。</p>
+<h3 id="计算机软件系统主要由以下几个组成部分："><a href="#计算机软件系统主要由以下几个组成部分：" class="headerlink" title="计算机软件系统主要由以下几个组成部分："></a>计算机软件系统主要由以下几个组成部分：</h3><ol>
+<li>应用程序：应用程序是计算机软件系统的核心组成部分，它们是为了实现特定的功能或解决特定问题而设计和开发的。应用程序可以包括单个程序或多个程序的组合，可以是基于命令行或图形用户界面（GUI）的。</li>
+<li>操作系统：操作系统是计算机软件系统的核心组成部分之一，它是管理计算机硬件和软件资源的系统软件。操作系统包括了各种功能，如内存管理、进程管理、文件系统管理、设备管理、网络管理等。</li>
+<li>数据库系统：数据库系统是一种用于管理和存储大量数据的软件系统，它包括数据库管理系统（DBMS）和一些数据库应用程序。数据库系统提供了一个结构化的、可靠的数据存储机制，能够支持数据的快速存储、检索和更新。</li>
+<li>网络软件：网络软件是计算机软件系统的一个重要组成部分，它包括各种网络协议、网络应用程序、网络安全软件等。网络软件可以让计算机之间进行通信、共享资源和数据。</li>
+<li>编程语言和开发工具：编程语言和开发工具是计算机软件系统的基础组成部分，它们用于开发和维护各种软件应用程序。编程语言包括了各种高级语言和低级语言，开发工具包括了各种集成开发环境（IDE）和调试器。</li>
+</ol>
+<p>将上述计算机软件系统组成按照系统软件和应用软件进行分类如下：</p>
+<p>系统软件：</p>
+<ol>
+<li>操作系统</li>
+<li>数据库系统</li>
+<li>网络软件</li>
+<li>编程语言和开发工具</li>
+</ol>
+<p>应用软件：</p>
+<ol>
+<li>应用程序</li>
+</ol>
+<h3 id="如何区分系统软件和应用软件"><a href="#如何区分系统软件和应用软件" class="headerlink" title="如何区分系统软件和应用软件"></a>如何区分系统软件和应用软件</h3><p>系统软件是计算机软件系统中的基础组成部分，它们提供了管理计算机硬件和软件资源的各种功能。应用软件是在系统软件的基础上构建的，用于实现特定功能或解决特定问题的程序。操作系统、数据库系统、网络软件和编程语言和开发工具都是系统软件；而应用程序是应用软件的代表。</p>
+<p>系统软件和应用软件可以根据其作用和功能进行分类。</p>
+<p>系统软件是计算机系统中的基础软件，负责管理和控制硬件和其他软件资源。它们通常不直接与用户交互，而是提供基础功能和服务来支持应用程序的运行。系统软件可以进一步细分为以下几类：</p>
+<ol>
+<li>操作系统：负责管理计算机的硬件资源和软件资源，为应用程序提供运行环境和接口。</li>
+<li>驱动程序：提供硬件设备的控制程序，与操作系统协同工作以实现硬件设备的正常使用。</li>
+<li>网络软件：管理计算机网络的通信协议和服务，为应用程序提供网络通信功能。</li>
+<li>安全软件：包括防火墙、杀毒软件等，提供保护计算机系统和数据安全的功能。</li>
+</ol>
+<p>应用软件则是指具有特定功能和应用的软件程序。它们被设计和开发用于完成特定任务，如写作、游戏、多媒体处理、图像处理、财务管理等。应用软件可以进一步细分为以下几类：</p>
+<ol>
+<li>办公软件：如文字处理、电子表格、演示文稿等，用于办公和处理文档、表格、图表等。</li>
+<li>多媒体软件：如音频和视频播放器、图像处理软件等，用于处理和播放多媒体文件。</li>
+<li>游戏软件：如电脑游戏、手机游戏等，用于娱乐和休闲。</li>
+<li>工程软件：如CAD、CAM等，用于工程设计和制造。</li>
+<li>教育软件：如在线学习平台、电子课本等，用于教育和学习。</li>
+</ol>
+<p>总的来说，系统软件是为应用软件提供基础支持和服务的软件，而应用软件则是为完成特定任务和解决特定问题而设计和开发的软件。</p>
+<h2 id="操作系统的基本概念和分类"><a href="#操作系统的基本概念和分类" class="headerlink" title="操作系统的基本概念和分类"></a>操作系统的基本概念和分类</h2><p>计算机操作系统可以分成以下几种：</p>
+<ol>
+<li>批处理操作系统：这种操作系统可以自动处理大量的批量作业，采用作业控制语言（Job Control Language，JCL）来描述作业，通过作业调度程序将多个作业按照一定的顺序提交给计算机系统处理。</li>
+<li>分时操作系统：这种操作系统可以同时为多个用户提供服务，允许多个程序同时运行。这种系统采用了分时技术，将计算机时间分割成多个时间片，每个用户都可以在自己的时间片内独占计算机资源。例如UNIX就是一种分时操作系统。</li>
+<li>实时操作系统：这种操作系统可以在规定的时间内对输入做出快速响应，通常用于控制和监控等领域。例如航空交通管制系统、医疗设备等就是实时操作系统的应用。</li>
+<li>分布式操作系统：这种操作系统可以通过网络连接多个计算机，实现资源共享和协同工作。这种系统通常采用分布式技术，允许多个计算机共同完成一个任务。例如云计算、物联网等就是分布式操作系统的应用。</li>
+<li>实时分布式操作系统：这种操作系统结合了实时和分布式操作系统的特点，可以在规定的时间内对输入做出快速响应，同时通过网络连接多个计算机，实现资源共享和协同工作。这种系统通常用于控制和监控等领域的应用。</li>
+</ol>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/" class="category-chain-item">学习资料</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%AD%A6%E4%B9%A0/">#学习</a>
+      
+        <a href="/tags/%E7%94%B5%E8%84%91/">#电脑</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>计算机基础知识</div>
+      <div>https://baopaper.cn/2023/07/02/计算机基础知识/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>BaoPaper</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年7月2日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-meta-image">
+      <a target="_blank" rel="noopener" href="https://notbyai.fyi/">
+        <img src="https://baopaper.cn/img/Produced-By-Human-Not-By-AI-Badge-black.svg" srcset="/img/loading.gif" lazyload alt="License Image">
+      </a>
+    </div>    
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2023/07/03/%E4%BD%BF%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo/" title="使用Python脚本自动部署Hexo">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">使用Python脚本自动部署Hexo</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/08/09/%E6%89%8B%E6%9C%BA%E5%BF%AB%E5%85%85%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84/" title="手机快充是如何实现的">
+                        <span class="hidden-mobile">手机快充是如何实现的</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="waline"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://lib.baomitu.com/waline/2.14.1/waline.min.css')
+      Fluid.utils.createScript('https://lib.baomitu.com/waline/2.14.1/waline.min.js', function() {
+        var options = Object.assign(
+          {"serverURL":"waline.baopaper.cn","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
+          {
+            el: '#waline',
+            path: window.location.pathname
+          }
+        )
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <div class="footer-content"> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> © 2021 - 2024 <a href="https://baopaper.cn/about/" target="_self">BaoPaper</a> </div> 
+    </div>
+  
+  
+  
+    <!-- 备案信息 ICP for China -->
+    <div class="beian">
+  <span>
+    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+      鄂ICP备2023009953号
+    </a>
+  </span>
+  
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>

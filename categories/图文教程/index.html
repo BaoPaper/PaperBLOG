@@ -301,7 +301,9 @@
     <div class="footer-inner">
   
     <div class="footer-content">
-       <div class="footer-content"> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> © 2021 - 2024 <a href="https://baopaper.cn/about/" target="_self">BaoPaper</a> </div> 
+       <div class="footer-content"> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> © 2021 - <span id="current-year"></span> <a href="https://baopaper.cn/about/" target="_self">BaoPaper</a> </div>
+<script> document.getElementById("current-year").textContent = new Date().getFullYear(); </script>
+
     </div>
   
   

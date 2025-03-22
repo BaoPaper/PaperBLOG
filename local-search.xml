@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>记一次个人导航页迁移</title>
+    <link href="/2025/03/22/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%B8%AA%E4%BA%BA%E5%AF%BC%E8%88%AA%E9%A1%B5%E8%BF%81%E7%A7%BB/"/>
+    <url>/2025/03/22/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%B8%AA%E4%BA%BA%E5%AF%BC%E8%88%AA%E9%A1%B5%E8%BF%81%E7%A7%BB/</url>
+    
+    <content type="html"><![CDATA[<p>因为觉得功能简陋的原因将导航页系统从 <a href="https://github.com/soulteary/docker-flare">Flare</a> 更换到了 <a href="https://github.com/glanceapp/glance">Glance</a>。</p><p>Flare 的功能很纯粹，就是简单的书签导航，Glance 则更接近个人信息仪表盘吧，使用组件的概念编辑页面，十分灵活，内置的组件也很丰富，如下图的官方示例图片，日历、RSS、频道订阅、新闻、天气、股票等等。</p><p><img src="https://pic.baopaper.cn/20250322/readme-main-image.3rbe552mhx.webp" alt="官方示例图片"></p><p>经过配置后我的页面长这样</p><p><img src="https://pic.baopaper.cn/20250322/chrome_1742629211.4jo9mvlou2.webp" alt="我的页面"></p><p>我使用 RSS 订阅在页面左侧展示 LINUX DO 论坛的最新帖子，还通过自定义 API 组件在右侧展示了一个学习通作业看板。</p><p>Glance 在屏幕尺寸适配上很用心，下面图片是在手机上使用时的界面，在上一张图片中的左中右三个分栏在手机上个成为了独立的页面，通过页面底部的小按钮进行切换，按钮切换动画十分流畅，用着很舒服。</p><p><img src="https://pic.baopaper.cn/20250322/1742629675.4ub3g1bar8.avif" alt="手机界面"></p><p>最后，神奇的是，Glance 对比 Flare 的内存占用反而更低。Flare 大概占用 30MB，而 Glance 只占用 10MB 左右。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>开发调优</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>VLC皮肤分享</title>
     <link href="/2023/07/09/VLC%E7%9A%AE%E8%82%A4%E5%88%86%E4%BA%AB/"/>
     <url>/2023/07/09/VLC%E7%9A%AE%E8%82%A4%E5%88%86%E4%BA%AB/</url>
@@ -128,9 +153,9 @@
     
     <tags>
       
-      <tag>教程</tag>
-      
       <tag>我的世界</tag>
+      
+      <tag>教程</tag>
       
     </tags>
     
